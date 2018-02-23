@@ -1,0 +1,24 @@
+//
+//  MovieBrowser.pch
+//  Movie Browser
+//
+//  Created by Quentin Desouza on 21/02/18.
+//  Copyright © 2018 Quentin Desouza. All rights reserved.
+//
+
+#ifndef MovieBrowser_pch
+#define MovieBrowser_pch
+
+#import "Global.h"
+#import "UIProgressViewWithText.h"
+#import "UIViewController+BackButtonWithImage.h"
+#import "AFNetworking.h"
+#import "constants.h"
+#import "UtilityClass.h"
+#import "UIViewController+ECSlidingViewController.h"
+#import "UserActivityDOM.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* MovieBrowser_pch */
