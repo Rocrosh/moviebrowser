@@ -113,13 +113,6 @@
     
     self.slidingViewController.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"HomeNavigation"];
     
-//    [[NSNotificationCenter defaultCenter] postNotificationName:@"SearchText" object:self userInfo:nil];
-//
-//    NSLog(@"Movie is - %@",[searchArray objectAtIndex:indexPath.row]);
-//
-//    [self.navigationController popViewControllerAnimated:YES];
-    
-    
 }
 
 #pragma mark - UISearchBarDelegates methods

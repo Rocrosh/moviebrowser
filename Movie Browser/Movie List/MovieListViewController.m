@@ -34,10 +34,7 @@
     // Do any additional setup after loading the view.
 
     [self initialiseView];
-    
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(GetPopularMovieList) name:@"Sorting" object:nil];
-    
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(GetSearchedMovieList) name:@"SearchText" object:nil];
+
 }
 
 -(void)initialiseView{
@@ -99,7 +96,12 @@
     
     MovieListDOM *listDOM = (MovieListDOM *)[movieList objectAtIndex:indexPath.row];
     
-    Cell.lblTitle.text = listDOM.movie_name;
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:@"yyyy-MM-dd"];
+    NSDate *date = [dateFormatter dateFromString:listDOM.movie_date];
+    [dateFormatter setDateFormat:@"YYYY"];
+    
+    Cell.lblTitle.text = [NSString stringWithFormat:@"%@ | %@",listDOM.movie_name,[dateFormatter stringFromDate:date]];
 
     Cell.lblRating.text = [NSString stringWithFormat:@"%@",listDOM.movie_rating];
     
