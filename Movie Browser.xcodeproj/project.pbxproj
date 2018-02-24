@@ -93,6 +93,7 @@
 		9B667A5F203E09E70005CAD9 /* radio-checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B667A5C203E09E70005CAD9 /* radio-checked.png */; };
 		9B88CF202040301600B92031 /* UserActivityDOM.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B88CF1F2040301600B92031 /* UserActivityDOM.m */; };
 		9B88CF2220403E7F00B92031 /* icon_menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B88CF2120403E7F00B92031 /* icon_menu@2x.png */; };
+		9B88CFAE2041495600B92031 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B88CFAD2041495600B92031 /* home.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -259,6 +260,7 @@
 		9B88CF1E2040301600B92031 /* UserActivityDOM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserActivityDOM.h; sourceTree = "<group>"; };
 		9B88CF1F2040301600B92031 /* UserActivityDOM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserActivityDOM.m; sourceTree = "<group>"; };
 		9B88CF2120403E7F00B92031 /* icon_menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_menu@2x.png"; sourceTree = "<group>"; };
+		9B88CFAD2041495600B92031 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -573,6 +575,7 @@
 		9B667A59203E09710005CAD9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				9B88CFAD2041495600B92031 /* home.png */,
 				9B88CF2120403E7F00B92031 /* icon_menu@2x.png */,
 				9B086869203F43AC008EACA4 /* close_new.png */,
 				9B667A5C203E09E70005CAD9 /* radio-checked.png */,
@@ -694,6 +697,7 @@
 				9B667A3B203DE3B90005CAD9 /* NOTICE.txt in Resources */,
 				9B667A46203DE3B90005CAD9 /* Roboto-LightItalic.ttf in Resources */,
 				9B667A5E203E09E70005CAD9 /* sorted-icon.png in Resources */,
+				9B88CFAE2041495600B92031 /* home.png in Resources */,
 				9B667A45203DE3B90005CAD9 /* Roboto-Light.ttf in Resources */,
 				9B667A3E203DE3B90005CAD9 /* Roboto-Bold.ttf in Resources */,
 				9B667A5F203E09E70005CAD9 /* radio-checked.png in Resources */,
