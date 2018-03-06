@@ -21,7 +21,7 @@
     [viewName bringSubviewToFront:activity];
     
     [activity startAnimating];
-    [viewName setUserInteractionEnabled:NO];
+//    [viewName setUserInteractionEnabled:NO];
     
     if (block) {
         datablock=[block copy];
@@ -52,12 +52,12 @@
         }
         
         [activity stopAnimating];
-        [viewName setUserInteractionEnabled:YES];
+//        [viewName setUserInteractionEnabled:YES];
         
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         
         [activity stopAnimating];
-        [viewName setUserInteractionEnabled:YES];
+//        [viewName setUserInteractionEnabled:YES];
         
         // 4
         UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Error Retrieving Data"

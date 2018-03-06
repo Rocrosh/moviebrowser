@@ -18,7 +18,4 @@
 @property (strong,nonatomic) NSString *movie_rating;
 @property (strong,nonatomic) NSString *movie_popularity;
 
-
-
-
 @end

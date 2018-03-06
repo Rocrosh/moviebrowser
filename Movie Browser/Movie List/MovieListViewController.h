@@ -10,9 +10,9 @@
 
 
 @interface MovieListViewController : UIViewController<UITableViewDelegate,UITableViewDataSource,UITextFieldDelegate>
-@property (strong, nonatomic) IBOutlet UITableView *tblMovieList;
+@property (weak, nonatomic) IBOutlet UITableView *tblMovieList;
 - (IBAction)btnSortClicked:(id)sender;
-@property (strong, nonatomic) IBOutlet UITextField *txtSearchMovie;
+@property (weak, nonatomic) IBOutlet UITextField *txtSearchMovie;
 - (IBAction)btnMenubar:(id)sender;
 
 - (IBAction)btnReloadTable:(id)sender;

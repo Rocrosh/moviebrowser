@@ -103,7 +103,7 @@
     
     Cell.lblTitle.text = [NSString stringWithFormat:@"%@ | %@",listDOM.movie_name,[dateFormatter stringFromDate:date]];
 
-    Cell.lblRating.text = [NSString stringWithFormat:@"%@",listDOM.movie_rating];
+    Cell.lblRating.text = [NSString stringWithFormat:@"%.1f",listDOM.movie_rating];
     
     [Cell.poster_img sd_setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@%@",IMAGE_URL,listDOM.movie_image]]];
     return Cell;
@@ -191,8 +191,10 @@
                 listDOM.movie_image = [data objectForKey:@"poster_path"];
                 listDOM.movie_date = [data objectForKey:@"release_date"];
                 listDOM.movie_popularity = [data objectForKey:@"popularity"];
-                listDOM.movie_rating = [NSString stringWithFormat:@"%.1f",[[data objectForKey:@"vote_average"] floatValue]];
+                listDOM.movie_rating = [[data objectForKey:@"vote_average"] floatValue];
+                
                 [temp_array addObject:listDOM];
+                
             }
             
             if ([temp_array count] > 0) {

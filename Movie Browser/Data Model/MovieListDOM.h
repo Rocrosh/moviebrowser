@@ -15,7 +15,6 @@
 @property (strong,nonatomic) NSString *movie_date;
 @property (strong,nonatomic) NSString *movie_image;
 @property (strong,nonatomic) NSString *movie_popularity;
-@property (strong,nonatomic) NSString *movie_rating;
-
+@property (assign,nonatomic) float movie_rating;
 
 @end

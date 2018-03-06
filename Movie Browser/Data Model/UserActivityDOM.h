@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface UserActivityDOM : NSObject
+
 typedef enum : NSUInteger {
     MostPopular = 1,
     TopRated = 2,

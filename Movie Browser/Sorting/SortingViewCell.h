@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface SortingViewCell : UITableViewCell
-@property (strong, nonatomic) IBOutlet UIImageView *ImgRadio;
-@property (strong, nonatomic) IBOutlet UILabel *lblText;
+@property (weak, nonatomic) IBOutlet UIImageView *ImgRadio;
+@property (weak, nonatomic) IBOutlet UILabel *lblText;
 
 @end

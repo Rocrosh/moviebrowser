@@ -22,7 +22,7 @@
         movie_name = @"";
         movie_date = @"";
         movie_popularity = @"";
-        movie_rating = @"";
+        movie_rating = 0.0;
     }
 
     return self;

@@ -10,6 +10,6 @@
 
 @interface SortingViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
 - (IBAction)btnApplySortingClicked:(id)sender;
-@property (strong, nonatomic) IBOutlet UITableView *tblSorting;
+@property (weak, nonatomic) IBOutlet UITableView *tblSorting;
 
 @end

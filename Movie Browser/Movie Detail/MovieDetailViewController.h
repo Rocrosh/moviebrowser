@@ -12,4 +12,5 @@
 @interface MovieDetailViewController : UIViewController
 
 @property (strong,nonatomic) MovieDetailDOM *detailDOM;
+
 @end

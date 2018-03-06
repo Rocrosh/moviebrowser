@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface MovieListCell : UITableViewCell
-@property (strong, nonatomic) IBOutlet UIImageView *poster_img;
-@property (strong, nonatomic) IBOutlet UILabel *lblTitle;
-@property (strong, nonatomic) IBOutlet UILabel *lblRating;
-@property (strong, nonatomic) IBOutlet UIView *RatingView;
+@property (weak, nonatomic) IBOutlet UIImageView *poster_img;
+@property (weak, nonatomic) IBOutlet UILabel *lblTitle;
+@property (weak, nonatomic) IBOutlet UILabel *lblRating;
+@property (weak, nonatomic) IBOutlet UIView *RatingView;
 
 @end
